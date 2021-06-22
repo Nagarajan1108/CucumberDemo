@@ -1,14 +1,14 @@
 #Author: Nagarajan.email@your.domain.com
 Feature: validating customer flow
 
-  #Scenario: Add Customer Validation
+  Scenario: Add Customer Validation
     Given user launch Telecom Application
     And user Select Add Customer Field
     When user need to fill up the customer details
     And User Click the Submit button
     Then User fetch the Customer id when it is Generated
 
-  #Scenario: Add Customer Validation by one dimensional list concepts
+  Scenario: Add Customer Validation by one dimensional list concepts
     Given user launch Telecom Application
     And user Select Add Customer Field
     When user need to fill up the customer details by onedim list
@@ -16,7 +16,7 @@ Feature: validating customer flow
     And User Click the Submit button
     Then User fetch the Customer id when it is Generated
 
-  #Scenario: Add Customer Validation by one dimensional Map concepts
+  Scenario: Add Customer Validation by one dimensional Map concepts
     Given user launch Telecom Application
     And user Select Add Customer Field
     When user need to fill up the customer details by onedim Map
