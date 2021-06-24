@@ -1,6 +1,6 @@
 #Author: Nagarajan.email@your.domain.com
 Feature: Add Tariff plan details
-@AddTariff @Smoke
+@AddTariff
 
   Scenario Outline: Tariff plan validation
     And user select Add Tariff Plan Details
@@ -13,3 +13,4 @@ Feature: Add Tariff plan details
       | 100 | 200 | 300 | 400 |  500 |  600 | 700 |
       | 110 | 220 | 330 | 440 |  550 |  660 | 770 |
     
+  
