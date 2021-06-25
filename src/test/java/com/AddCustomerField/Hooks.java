@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks extends CommonActions
 {	
-	public static WebDriver driver;	
+	
 	@Before
 	public void launch() 
 	{
